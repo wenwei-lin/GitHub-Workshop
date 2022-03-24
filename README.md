@@ -15,7 +15,7 @@ In this workshop, we will discuss *How to collaborate with others on group homew
 | **Goal**                      | *describe the goal of the workshop*                                                                |
 | ----------------------------- | -------------------------------------------------------------------------------------------------- |
 | **What will you learn**       | How to create a Git repository, use Git for version control, and collborate with others in GitHub. |
-| **What you'll need**          | [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [Visual Studio Code](https://code.visualstudio.com/), and a [GitHub account](https://github.com/)                                                                                                |
+| **What you'll need**          | [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [Visual Studio Code](https://code.visualstudio.com/), and [a GitHub account](https://github.com/)                                                                                                |
 | **Duration**                  | About 1 hour                                                                                       |
 | **Slides** | [Powerpoint](slides.pptx) 
                          
