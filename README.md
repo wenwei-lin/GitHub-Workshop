@@ -39,7 +39,7 @@ In this workshop, we will discuss *How to collaborate with others on group homew
 
 ## Workshop flow
 
-### Config Git & GitHub
+### Introduction to Git & GitHub
 
 ### Create and modify Git repository
 
@@ -58,9 +58,3 @@ In this workshop, we will discuss *How to collaborate with others on group homew
 ## Practice
 
 Now you have known the GitHub flow for collboration. Try it in your next Group Homework!
-
-## Feedback
-
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)!
-
-[Code of Conduct](CODE_OF_CONDUCT.md)
