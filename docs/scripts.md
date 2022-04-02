@@ -2,7 +2,9 @@
 
 以登录页面为例，向大家演示使用GitHub完成小组作业。
 
-# 配置用户信息
+## Section 1
+
+### 配置用户信息
 
 在使用Git前，你需要先配置用户信息。用户信息会记录在项目的更新日志中。
 
@@ -11,7 +13,7 @@ $ git config --global user.name "Wenwei Lin"
 $ git config --global user.email "evanlynn.wei@gmail.com"
 ```
 
-## 创建项目目录并初始化
+### 创建项目目录并初始化
 
 在进行每一个Git项目时，我们都需要使用`git init`命令初始化。
 
@@ -23,7 +25,7 @@ $ git init      # 初始化
 Initialized empty Git repository in /home/evanlynn/workshop/login/.git/
 ```
 
-## 在项目中创建文件README.md
+### 在项目中创建文件README.md
 
 `README.md`文件是显示在GitHub仓库页面的文件，我们将创建它作为项目的第一个文件。
 
@@ -34,7 +36,7 @@ $ ls              # 查看当前目录文件
 README.md
 ```
 
-## 查看repo状态
+### 查看repo状态
 
 `git status`命令将显示项目状态。
 
@@ -52,7 +54,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-## 添加到Git缓冲区
+### 添加到Git缓冲区
 
 将`README.md`文件添加到缓冲区中
 
@@ -69,7 +71,7 @@ Changes to be committed:
         new file:   README.md
 ```
 
-## Commit changes
+### Commit changes
 
 当完成修改后，提交这次改变。（备份点）
 
@@ -81,7 +83,7 @@ $ git commit -m "Initialize the repo"
  create mode 100644 README.md
 ```
 
-## 查看提交日志
+### 查看提交日志
 
 `git log`命令可以让我们查看仓库的提交日志
 
@@ -103,7 +105,7 @@ $ git log --oneline
 85c0904 (HEAD -> master) Initialize the repo
 ```
 
-## 在README.md文件中加入内容
+### 在README.md文件中加入内容
 
 ```bash
 $ code . # 使用Visual Studio Code打开项目
@@ -117,7 +119,7 @@ $ code . # 使用Visual Studio Code打开项目
 这个项目将搭建一个登录页面。用户可以输入账户、密码。
 ```
 
-## 对比文件变化
+### 对比文件变化
 
 `git diff`命令可以帮助我们对比文件的变化
 
@@ -135,7 +137,7 @@ index e69de29..08ef9e0 100644
 \ No newline at end of file
 ```
 
-## 提交改变
+### 提交改变
 
 当完成某一个阶段的任务时，我们可以使用`git commit`命令提交变化，相当于一个备份点。
 
@@ -155,7 +157,7 @@ d14b148 (HEAD -> master) Write project introduction in README.md
 85c0904 Initialize the repo
 ```
 
-## 忽略某些文件
+### 忽略某些文件
 
 有时候，本地项目的某些文件是不需要（不能）推送到仓库中的，比如环境变量`.env`文件。
 
@@ -225,7 +227,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-## 修正小错误
+### 修正小错误
 
 有时候，我们发现上一次的提交中包含小错误，比如拼错了单词，目录名写错了，但又不想再提交一次。
 
@@ -274,7 +276,7 @@ d14b148 Write project introduction in README.md
 85c0904 Initialize the repo
 ```
 
-## 恢复删除的文件
+### 恢复删除的文件
 
 有时，我们不小心删除了文件。Git可以帮我们恢复文件
 
@@ -292,8 +294,9 @@ $ ls
 
 README.md
 ```
+## Section 2
 
-## 创建分支
+### 创建分支
 
 首先我们先创建`index.html`文件，并完成html框架
 
@@ -378,7 +381,7 @@ $ git commit -a -m "build form"
  1 file changed, 13 insertions(+)
 ```
 
-## 合并分支
+### 合并分支
 
 完成了特性开发后，我们切换到主分支，将`build-form`分支合并
 
@@ -438,8 +441,9 @@ $ git log --graph
 $ git branch -d build-form
 ```
 
+## Section 3
 
-## 向GitHub推送本地仓库
+### 向GitHub推送本地仓库
 
 先进入GitHub创建仓库，然后推送。
 
@@ -447,7 +451,7 @@ $ git branch -d build-form
 
 ![](push.png)
 
-## 使用GitHub协同工作
+## Section 4 使用GitHub协同工作
 
 ### 创建一个Issue
 
