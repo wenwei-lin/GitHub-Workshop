@@ -4,6 +4,13 @@
 
 In this workshop, we will learn how to ***work on Group Homework using GitHub***.
 
+## Related Resource
+
+* [Download Presentation slides](./docs/Slides.pptx)
+* [Watch video record](https://stdntpartners-my.sharepoint.com/:v:/g/personal/wenwei_lin_studentambassadors_com/EVm5WxCpEI5CgHKv646-7RsBba5RdoK3n5ClTOo6rrBVmA?e=DAhAtP)
+* [Workshop Demo Source Code](./demo)
+* [Workshop Demo Scripts](./docs/scripts.md)
+
 ## Prerequisites
 
 * Install Git
