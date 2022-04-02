@@ -9,8 +9,8 @@
 在使用Git前，你需要先配置用户信息。用户信息会记录在项目的更新日志中。
 
 ```bash
-$ git config --global user.name "Wenwei Lin"
-$ git config --global user.email "evanlynn.wei@gmail.com"
+$ git config --global user.name "your_name"
+$ git config --global user.email "your_email"
 ```
 
 ### 创建项目目录并初始化
