@@ -1,4 +1,4 @@
-# Demo Project Login Page、
+# Demo Project Login Page
 
 以登录页面为例，向大家演示使用GitHub完成小组作业。
 
